@@ -1,0 +1,2 @@
+# SMART-FOOD-INGREDIENT-ANALYSIS-SYSTEM-FOR-PERSONALISED-ALLERGY-AND-HEALTH-SAFETY-
+Developed as both a mobile and web application. It is designed to assist users in making safer food choices by analyzing ingredients and nutritional information from packaged food products. The system allows users to scan or upload images of food packets, from which it extracts textual data using Optical Character Recognition (OCR).
