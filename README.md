@@ -26,7 +26,7 @@ In today’s fast-paced world, interpreting food labels is often challenging and
 - ✅ **Secure Cloud Storage**: Firebase for user data & real-time syncing
 
 📢 Project Status
-🚧 Note: This project is partially developed and currently in its early-stage/prototype phase. Several features are functional, but the full set of planned capabilities—such as barcode scanning, multilingual support, and voice assistance—are still under development and will be added in future updates.
+🚧 Note: This project is partially developed and currently in its early-stage/prototype phase. Several features are functional, but the full set of planned capabilities—such as barcode scanning, multilingual support, and voice assistance—are still under development and will be added in future updates and create your env file.
 
 ✅ Future Enhancements
  Barcode scanning support
