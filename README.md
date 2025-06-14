@@ -1,50 +1,67 @@
-# React + TypeScript + Vite
+# 🥗 Smart Food Ingredient Analysis System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application designed to help users with food allergies, dietary restrictions, or chronic health conditions make safe and informed food choices by analyzing the ingredients on packaged food products in real-time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 About the Project
 
-## Expanding the ESLint configuration
+In today’s fast-paced world, interpreting food labels is often challenging and risky, especially for individuals with allergies or specific health conditions. The **Smart Food Ingredient Analysis System** aims to simplify this by allowing users to:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 📷 Scan or upload food packet images
+- 🧠 Automatically extract ingredients using OCR
+- 🛑 Highlight harmful, cautious, and safe ingredients (Red / Yellow / Green)
+- 📋 Provide explanations for ingredients and offer safer alternatives
+- 👤 Customize results based on a user's personal health profile
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🚀 Features
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- ✅ **Real-Time OCR**: Extract ingredients from food label images
+- ✅ **Personalized Health Profile**: Setup allergies, chronic conditions, and dietary preferences
+- ✅ **Color-Coded Safety Feedback**: Instantly shows health status of each ingredient
+- ✅ **Educational Insights**: Clickable ingredient explanations + safer suggestions
+- ✅ **Cross-Platform**: Built using Flutter (Android) and ReactJS (Web)
+- ✅ **Secure Cloud Storage**: Firebase for user data & real-time syncing
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+📢 Project Status
+🚧 Note: This project is partially developed and currently in its early-stage/prototype phase. Several features are functional, but the full set of planned capabilities—such as barcode scanning, multilingual support, and voice assistance—are still under development and will be added in future updates.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+✅ Future Enhancements
+ Barcode scanning support
+
+ Multilingual ingredient detection
+
+ Offline scan history
+
+ Voice assistant integration
+
+ Integration with e-commerce platforms
+ 
+---
+
+## 🛠️ Tech Stack
+
+| Platform | Technology |
+|----------|------------|
+| Frontend (Web)    | ReactJS |
+| Backend & Auth    | Firebase (Firestore, Auth) |
+| OCR Engine        | Tesseract.js / Google ML Kit |
+| Design            | TailwindCSS (Web) |
+
+---
+
+## 📷 Screenshots
+
+> Coming Soon! *
+
+---
+
+## 📦 Installation & Setup
+
+### 🌐 Web (React)
+
+```bash
+npm install
+npm start
